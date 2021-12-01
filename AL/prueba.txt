@@ -1,0 +1,34 @@
+int x;
+int y;
+
+struct {
+    int x;
+    float y;
+} a;
+
+struct b {
+    float x;
+} c;
+
+int suma ( int a , int b ) {
+    int c;
+    c = a + b;
+    return c;
+}
+
+void main(){
+    x = 6;
+    y = 1;
+    x = suma(x, y);
+    while(x > 0){
+        y = y * x;
+        x = x - 1;
+    }
+
+    print("El factorial de 6 es: \n\t");
+    print("\n");
+    print("\t");
+    print("El valor de x + 1 es: \n\t");
+    print(x + 1); 
+    print(" ");
+}
