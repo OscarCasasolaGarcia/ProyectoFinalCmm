@@ -7,12 +7,10 @@ El archivo `main.cpp` es para probar el código.
 
 Para generar el analizador léxico:
 ```shell
-$ flex lexer.ll
+$ make
 ```
 
 Para probar el analizador léxico:
 ```shell
-$ flex lexer.ll
-$ g++ main.cpp Scanner.cpp -o lexer
-$ ./lexer /path/to/test
+$ ./compiler [archivo]
 

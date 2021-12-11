@@ -31,4 +31,9 @@ void main(){
     print("El valor de x + 1 es: \n\t");
     print(x + 1); 
     print(" ");
+    cadena1 = "Hola";
+    tipoFloat = 6.5e77f;
+    tipoInt = 5, 6.8, 7.8e2F, 8.8e3D, 9.8e2f, 9.8e4d, .9e2f, .9e4d;
 }
+
+void main wefw; 

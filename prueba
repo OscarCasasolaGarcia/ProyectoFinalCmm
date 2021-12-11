@@ -1,0 +1,20 @@
+int factorial(int num){
+    int f, i;
+    f = 1; 
+    i = 2;
+    while (i < num) {
+        f = f * num;
+        i = i + 1;
+    }
+    return f;
+}
+
+void main() {
+    int a;
+    int f;
+    print("Ingresa un número: \n");
+    scan(a);
+    f = factorial(a);
+    print("El factorial es:");
+    print(f);
+}
