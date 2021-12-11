@@ -19,7 +19,7 @@ DOUBLE (([0-9]+\.[0-9]*|\.[0-9]+)([Ee][+-]?[0-9]+)?|[0-9]+([eE][+-]?[0-9]+))(d|D
 ID [A-Za-z_][A-Za-z0-9_]*
 ESP [ \t\n\r\v]
 CADENA ["]([^"\\\n]|\\.|\\\n)*["]
-CARACTER ['][\x20-\x7E][']
+CARACTER ['][\x20-\x7E]['] 
 
 %%
 "char"   { return CHAR;}

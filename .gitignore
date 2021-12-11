@@ -1,2 +1,3 @@
-lexer
-compiler
+AL/lexer.o
+AL/compiler
+AL/main.o
